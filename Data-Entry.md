@@ -24,7 +24,7 @@ Papers can be marked as **read** or **unread**, and may be **starred.**
 * Tagging
 
 ### <a id="Section_2.1"></a> 2.1 Creating a new group on Mendeley (Project Managers)
-Each project has two groups: "projectname" and "projectname_out" for the papers with data to be entered and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in [Table 6](#Table 6)). 
+Each project has two groups: "TraitChange" and "TraitChange_out" for all the papers and for the papers with data that has been entered, respectively. Papers in the _out group may contain data for future entry (for example, traits that are not listed in [Table 6](#Table 6)). 
 
 Each project manager may have one or more projects and each project should have one group. Group names should refer to plant species, plant functional types, or another project specific name. A list of current groups can be found in [Table 1](#Table 1). Please make sure that, at a minimum, Mike Dietze and David LeBauer are invited to join each project folder. 
    1. Open Mendeley desktop
@@ -945,37 +945,30 @@ List of the statistics that can be entered into the statname field of traits and
 | MSD | Minimum Significant Difference |  |  |
 
 <a id="Table 6"></Table 6>
-**Table 6: Variables**
+**Table 6: Variables** 
 
 | Variable | Units | Median (90%CI) or Range | Definition |
 |:---------|:------|:------------------------|:-----------|
-| Vcmax | $\mu$ mol CO$_2$ m$^{2}$ s$^{-1}$ | $44 (12, 125)$ | maximum rubisco carboxylation capacity |
 | SLA | m$^2$ kg$^{-1}$ | $15(4,27)$ | Specific Leaf Area area of leaf per unit mass of leaf |
 | LMA | kg m$^{-2}$ | $0.09 (0.03, 0.33)$ | Leaf Mass Area (LMA = SLM = 1/SLA) mass of leaf per unit area of leaf |
-| leafN | % | $2.2(0.8, 17)$ | leaf percent nitrogen |
-| c2n leaf | leaf C:N ratio | $39(21,79)$ | use only if leafN not provided |
-| leaf turnover rate | 1/year | $0.28(0.03,1.0) $ | |
-| Jmax | $\mu$ mol photons m$^{-2}$ s$^{-1}$ | $121(30, 262)$ | maximum rate of electron transport |
-| stomatal slope | | $9(1, 20)$ | |
-| GS | | | stomatal conductance (= gs$_{\textrm{max}}$ |
-| q* | | 0.2--5 | ratio of fine root to leaf biomass |
-| **grasses* | ratio of root:leaf = below:above ground biomass | | |
-| aboveground biomass | g m$^{-2}$ *or* g plant$^{-1}$ | | |
-| root biomass | g m$^{-2}$ *or* g plant$^{-1}$ | | |
-| **trees* | ratio of fine root:leaf biomass | | |
-| leaf biomass | g m$^{-2}$ *or* g plant$^{-1}$ | | |
-| fine root biomass (<2mm) | g m$^{-2}$ *or* g plant$^{-1}$ | | |
-| root turnover rate | 1/year | 0.1--10 | rate of fine root loss (temperature dependent) year$^{-1}$ |
 | leaf width | mm | 22(5,102) | |
-| growth respiration factor | % | 0--1 | proportion of daily carbon gain lost to growth respiration |
-| R$_{\textrm{dark}}$ | | $\mu$ mol CO$_2$ m$^{-2}$ s$^{-1}$ | dark respiration |
-| quantum efficiency | % | 0--1 | efficiency of light conversion to carbon fixation, see Farqhuar model |
-| dark respiration factor | % | 0--1 | converts Vm to leaf respiration |
-| seedling mortality | % | 0--1 | proportion of seedlings that die | 
-| r fraction | % |0--1 | fraction of storage to seed reproduction |
-| root respiration rate* | CO$_2$ kg$^{-1}$ fine roots s$^{-1}$ | 1--100 | rate of fine root respiration at reference soil temperature |
-| f labile | % | 0--1 | fraction of litter that goes into the labile carbon pool
-| water conductance | | |
+| leaf length | mm |  | |
+| leaf mass | g | | |
+| leaf area | c$^{2}$ |  | |
+| leafN | % | $2.2(0.8, 17)$ | leaf percent nitrogen |
+| leafP | % |  | leaf percent phosphorus |
+| delta C13 | per mil |  | natural C13 carbon isotope abundance in leaves|
+| c2n leaf | leaf C:N ratio | $39(21,79)$ | use only if leafN not provided |
+| Vcmax | $\mu$ mol CO$_2$ m$^{2}$ s$^{-1}$ | $44 (12, 125)$ | maximum rubisco carboxylation capacity |
+| Amax | $\mu$ mol CO$_2$ m$^{2}$ s$^{-1}$ | $44 (12, 125)$ | maximum rubisco carboxylation capacity |
+| Jmax | $\mu$ mol photons m$^{-2}$ s$^{-1}$ | $121(30, 262)$ | maximum rate of electron transport |
+| GS | | | stomatal conductance (= gs$_{\textrm{max}}$ |
+| stomatal slope | | $9(1, 20)$ | |
+| aboveground biomass | g m$^{-2}$ *or* g plant$^{-1}$ | | |
+| leaf biomass | g m$^{-2}$ *or* g plant$^{-1}$ | | |
+| R$_{\textrm{dark}}$ | | $\mu$ mol CO$_2$ m$^{-2}$ s$^{-1}$ | dark respiration rate|
+| R$_{\textrm{dark}}$ | | $\mu$ mol CO$_2$ m$^{-2}$ s$^{-1}$ | fraction of biomass allocated to leaves|
+| quantum efficiency | % | 0--1 | efficiency of light conversion to carbon fixation, see Farqhuar model | | |
 
 <a id="Table 7"></Table 7>
 **Table 7: Traits with required covariates**
